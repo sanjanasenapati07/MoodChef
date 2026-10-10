@@ -1,0 +1,362 @@
+/* Background & Scaffolding */
+.glow-bg-main {
+  --background: #fdfbf7; /* Light cream bottom background */
+}
+
+/* Forest Green Header */
+.tab3-header {
+  background-color: #1e2a1e; /* Your requested deep green */
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.header-text {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin: 15px 0 0 0;
+}
+
+.streak-badge-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 138, 117, 0.1);
+  border: 1px solid #ff8a75;
+  padding: 8px 18px;
+  border-radius: 30px;
+  color: #ff8a75;
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+/* White Card Content */
+.tab3-body-container {
+  margin-top: -60px; /* Pulls the white card into the green header */
+  padding: 0 20px 40px;
+}
+
+.pending-actions-card {
+  background: white;
+  border-radius: 30px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  margin-bottom: 35px;
+}
+
+.section-title {
+  color: #1a1a1a;
+  font-size: 1.4rem;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+/* Action Rows Alignment */
+.glow-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.glow-item-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.glow-item-info strong {
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.qty-subtext {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 2px;
+}
+
+/* Mini Status Pills */
+.status-pill-v3 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.status-pill-v3.pending {
+  background: #fff5f2;
+  color: #ff8a75;
+}
+
+.status-pill-v3.completed {
+  background: #f0fff4;
+  color: #2fb344;
+}
+
+/* Coral Finish Button */
+.finish-day-btn {
+  width: 100%;
+  background-color: #ff8a75; /* The specific coral color from pic */
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 18px;
+  font-weight: 700;
+  margin-top: 25px;
+  font-size: 1rem;
+}
+
+/* Admin Section Form */
+.admin-section-head {
+  color: #ff8a75;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.admin-form-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.admin-input-item {
+  --background: transparent;
+  --padding-start: 0;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 15px;
+}
+
+.admin-form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.flex-1 { flex: 1; }
+
+.admin-input-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.admin-submit-btn {
+  width: 100%;
+  background-color: #8e9a78; /* Muted Sage Green from Screenshot */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.coral-text { --color: #ff8a75; }
+
+.item-remove-btn {
+  opacity: 0.6;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.item-remove-btn:active {
+  transform: scale(0.85);
+  opacity: 1;
+}
+
+.glow-item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Ensure the row doesn't feel cramped with the new icon */
+  padding: 12px 15px; 
+}
+
+.system-manage-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.system-manage-row IonIcon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.item-remove-btn {
+  background: none;
+  border: none;
+  color: #eb445a;
+  display: flex;
+  padding: 5px;
+  font-size: 18px;
+}
+
+/* Accordion Styling */
+ion-accordion {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+.progress-card-v3 {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.progress-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.progress-info-row h2 { margin: 0; font-size: 1.4rem; font-weight: 700; }
+.progress-info-row p { margin: 0; color: #666; font-size: 0.9rem; }
+
+.glow-progress-bar {
+  height: 10px;
+  border-radius: 5px;
+  --progress-background: #ff8a75;
+}
+
+.gold-trophy { color: #ffc107; font-size: 24px; }
+.grey-trophy { color: #ddd; font-size: 24px; }
+
+.goal-status-text {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+  color: #2dd36f;
+  font-size: 0.9rem;
+}
+
+.tab3-nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.user-profile-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 4px 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.user-name-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #444;
+  text-transform: capitalize;
+}
+
+.mini-avatar-container {
+  width: 28px;
+  height: 28px;
+}
+
+.avatar-icon {
+  font-size: 28px;
+  color: #ff8a75;
+}
+
+/* Adjust your existing streak badge slightly if needed */
+.streak-badge-main {
+  margin: 0;
+}
+
+
+/* Anchors User Identity to the Top Right Corner */
+.user-corner-profile {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 4px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.user-name-text {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #444;
+  text-transform: capitalize;
+}
+
+.user-avatar-small {
+  width: 28px;
+  height: 28px;
+  font-size: 28px;
+  color: #ff8a75;
+}
+
+/* Ensure header has enough space so things don't overlap */
+.tab3-header {
+  padding-top: 25px;
+}
+.user-corner-profile {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  z-index: 9999; /* Higher z-index to stay on top */
+  background: rgba(255, 255, 255, 0.4);
+  padding: 4px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  pointer-events: auto; /* Ensures it is clickable */
+}
+
+/* Styling the integrated Toast to match your theme */
+ion-toast.custom-vintage-toast::part(overlay) {
+  background: #324b35 !important;
+  --background: #324b35 !important;
+}
+
+ion-toast.custom-vintage-toast::part(message) {
+  color: #ffffff !important;
+  font-family: 'Fredoka', sans-serif !important;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Alert Styling */
+.alert-button-confirm {
+  color: #eb445a !important;
+  font-weight: 700;
+}
+

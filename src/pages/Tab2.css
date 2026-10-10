@@ -1,0 +1,140 @@
+.app-cream-bg { --background: #fdfaf3; }
+.tab2-scroll-wrapper { padding: 15px; padding-bottom: 50px; }
+
+.menu-card-v2 {
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.menu-hero-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.menu-card-intro { padding: 20px 20px 10px 20px; }
+.menu-card-intro h2 { font-size: 1.8rem; font-weight: 800; margin: 0; color: #1e2a1e; }
+.menu-card-intro p { font-size: 0.9rem; color: #666; margin-top: 5px; }
+
+.menu-expand-trigger {
+  --background: #f9f9f9;
+  --color: #8e9775;
+  font-weight: 800;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+.menu-inner-list {
+  background: white;
+  padding: 10px 20px 20px;
+}
+
+.menu-activity-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.menu-activity-text { flex: 1; padding-right: 15px; }
+.menu-activity-text h4 { margin: 0; font-size: 1rem; font-weight: 700; color: #333; }
+.menu-activity-text p { margin: 4px 0 0; font-size: 0.8rem; color: #888; line-height: 1.3; }
+
+.menu-activity-photo { width: 60px; height: 60px; flex-shrink: 0; }
+.menu-activity-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Previous styles remain, add/update these: */
+
+.title-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.energy-pill {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  padding: 3px 6px;
+}
+
+.menu-activity-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align to top for longer descriptions */
+  padding: 15px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.menu-activity-text h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.menu-activity-photo {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.menu-activity-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* You can remove the .title-badge-row and .energy-pill styles */
+
+.menu-activity-text h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1e2a1e;
+  margin-bottom: 4px;
+}
+
+.menu-activity-text p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Keeps the image on the right */
+.menu-activity-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 15px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.menu-activity-photo {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+  margin-left: 15px;
+}
+
+.menu-activity-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}

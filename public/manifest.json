@@ -1,0 +1,19 @@
+{
+  "name": "MoodChef",
+  "short_name": "MoodChef",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#314b39",  
+  "theme_color": "#314b39",       
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable" 
+    }
+  ]
+}
+  
+
+ 
